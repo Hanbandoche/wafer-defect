@@ -4,7 +4,9 @@
 
 반도체 팹(Fab)의 소량 라벨 환경(**Labeled 5%, 6,919장**)에서 9종 웨이퍼 결함(특히 얇은 선형 소수 결함 `Scratch` 및 국소 결함 `Loc`, `Donut`)을 정확하고 안정적으로 분류하기 위한 **자기지도 사전학습(SSL)** 및 **웨이퍼 특화 파인튜닝 아키텍처** 개선 프로젝트입니다.
 
-> **전체 실험 과정 (문제 발견 → 원인 검증 → 해결책 → 결과)**: [EXPERIMENTS.md](EXPERIMENTS.md) 에서 Stage 1~5 스토리로 자세히 확인할 수 있습니다.
+> **문서 바로가기**
+> - **전체 실험 스토리 (문제 발견 → 원인 검증 → 해결책 → 결과)**: [EXPERIMENTS.md](EXPERIMENTS.md)
+> - **프로젝트 로드맵 & 진행 체크리스트 (Phase 1~6)**: [ROADMAP.md](ROADMAP.md)
 
 ---
 
@@ -50,6 +52,7 @@
 wafer-defect/
 ├── README.md                # 프로젝트 개요 및 실행 가이드
 ├── EXPERIMENTS.md           # Stage 1~5 문제 해결 과정 및 전체 실험 결과표
+├── ROADMAP.md               # Phase 1~6 프로젝트 로드맵 및 마일스톤 체크리스트
 ├── requirements.txt         # Python 의존성
 ├── wafixmatch.py            # 통합 실행 CLI (prepare / run / summary)
 ├── wafer/
